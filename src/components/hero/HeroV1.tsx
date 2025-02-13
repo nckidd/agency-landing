@@ -15,18 +15,18 @@ const HeroV1 = () => {
                             </video>
                         </div>
 
-                        <div className="hero-top">
+                        <div className="hero-top"> 
 
                             {/* Hero Description */}
                             <div className="hero-top-desc">
-                                <p>"Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected."</p>
+                                <p>"Search Engine Optimization is no longer about stuffing keywords and attempting to trick Google into ranking your website. It's about creating a user experience that is data driven. We know what customers are searching for and we know how to get them to a page. It's a combination of science and art to successfully rank a website."</p>
                                 {/* <p>Whether it’s developing a brand identity, creating a user-friendly website, or executing a dynamic marketing campaign, we approach every project with the same level of dedication and enthusiasm. “</p> */}
                             </div>
 
                             {/* Author Information */}
                             <div className="author-info">
-                                <h4>Steve Jobs</h4>
-                                <span>Co-Founder, Apple</span>
+                                <h4>Leland Dieno</h4>
+                                <span>Founder, Dieno Digital</span>
                             </div>
                         </div>
 

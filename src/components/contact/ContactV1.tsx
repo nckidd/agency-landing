@@ -1,13 +1,34 @@
+//import React from 'react';
 import btnArrow from '/assets/images/btn-arrow.svg';
 import contactThumb from '/assets/images/contact.png';
 import { toast } from 'react-toastify';
 
 const ContactV1 = () => {
 
-    const handleForm = (event: React.FormEvent<HTMLFormElement>) => {
+    const handleForm = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        event.currentTarget.reset();
-        toast.success("Thanks For Your Message");
+        const formData = new FormData(event.currentTarget);
+        formData.append("access_key", "d9546d45-4f6e-4c81-8cab-95061107db6a");
+
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body: json
+        }).then((res) => res.json());
+
+        if (res.success) {
+            console.log("Success",res);
+            toast.success("Thanks for your message!");
+            (event.target as HTMLFormElement).reset();
+        } else {
+            console.log("Error",res);
+        }
     }
 
     return (

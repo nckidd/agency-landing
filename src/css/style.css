@@ -777,7 +777,7 @@ a {
 }
 
 /* ===== # Hero ===== */
-.hero-sec .hero-inner {
+.hero-inner {
     height: calc(100vh + 36px);
     padding: 0 72px 40px;
     display: flex;
@@ -826,7 +826,7 @@ a {
     max-width: 100%;
 }
 
-.hero-sec .hero-top {
+.hero-top {
     max-width: 408px;
     width: 100%;
     display: flex;
@@ -834,6 +834,7 @@ a {
     align-items: flex-start;
     gap: 25px;
     padding-top: 136px;
+    
 }
 
 .hero-sec .hero-top .hero-top-desc {
@@ -916,7 +917,7 @@ a {
 }
 
 .about-hero-sec .hero-inner {
-    height: auto;
+    height: 100vh;
     gap: 230px;
     padding-bottom: 96px;
 }

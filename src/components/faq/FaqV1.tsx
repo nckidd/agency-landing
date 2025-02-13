@@ -73,12 +73,12 @@ const FaqV1 = () => {
                     <div className="accordion-item faq-item">
                         <h2 className="accordion-header" id="headingFour">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <span className="number">IV.</span> Can you assist with both online and offline creative projects? <span className="plus-icon"><span /><span /></span>
+                                <span className="number">IV.</span> Can you assist with both online and offline projects? <span className="plus-icon"><span /><span /></span>
                             </button>
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Our agency is entirely remote. We help you hire and manage any offline professionals (e.g., photographers, videographers, etc.) that your project may require, ensuring they produce quality work local to your headquarters.</p>
+                                <p>Our agency is entirely remote. We help you hire and manage any offline professionals (e.g., photographers, videographers, etc.) that your project may require, ensuring they produce quality work local to you.</p>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const FaqV1 = () => {
                         </h2>
                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Our agency specializes in custom branding and web design. However, if you have a prototype or design already made, we can build off that as well.</p>
+                                <p>We specialize in custom design and development. However, if you have a prototype or design already made, we can build off that as well.</p>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const FaqV1 = () => {
                         </h2>
                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>The lifecycle of any project lends itself to myriad redirections, and we get that! If you need to upgrade or downgrade, you can do so at any point. Please keep in mind that fees may apply to cancellations and depend on how much of the project has been completed (e.g., a 50% completed project will get a 50% refund of the project rate).</p>
+                                <p>The lifecycle of any project lends itself to redirection, and we anticipate that! If you need to upgrade or downgrade, you can do so at any point. Please keep in mind that fees may apply to cancellations, depending on how much of the project has been completed (e.g., a 50% completed project will get a 50% refund of the project rate).</p>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ const FaqV1 = () => {
                         </h2>
                         <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                                <p>Please consult our Projects page for specs on our previous projects. If you'd like to discuss further, we're happy to chat. Book a free consultation now!</p>
+                                <p>Please see our Projects page for previous work specs. If you'd like to discuss further, book a free consultation now!</p>
                             </div>
                         </div>
                     </div>

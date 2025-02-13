@@ -35,7 +35,7 @@ const HeaderV2 = () => {
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/projects">Projects</Link></li>
                                         {/* <li><Link to="/project-details/1">Project Single</Link></li> */}
-                                        <li><Link to="/blog">Blog</Link></li>
+                                        {/* <li><Link to="/blog">Blog</Link></li> */}
                                         {/* <li><Link to="/blog-details/1">Blog Detail</Link></li> */}
                                         {/* <li><Link to="/service-details/1">Service Single</Link></li> */}
                                         {/* <li><Link to="/team-details/1">Team Single</Link></li> */}

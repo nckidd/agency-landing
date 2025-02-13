@@ -12,10 +12,10 @@ const ServicesV1 = () => {
                     <div className="section-header" id="minify-text">
                         <span className="section-subtitle">
                             <img src={Union} alt="icon" />
-                            Our Service
+                            Our Services
                         </span>
                         <AnimatedText> 
-                            {`At CODE BLACK, we offer tailored creative solutions to elevate your brand and drive success, exceeding your expectations with our expert team's dedicated services.`}
+                            {`At code black we offer tailored creative solutions to elevate your brand and drive success, exceeding your expectations with our expert team's dedicated services.`}
                         </AnimatedText>
                     </div>
                 </div>

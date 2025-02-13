@@ -707,9 +707,7 @@
 }
 
 @media (max-width: 424px) {
-    .hero-sec .hero-inner {
-        height: auto;
-    }
+
 
     .service-box .service-inner .service-img-box img {
         width: 100px;
@@ -735,5 +733,8 @@
 
     #minify-text .section-title {
         line-height: 1;
+    }
+    .hero-sec .hero-top {
+        visibility: hidden;
     }
 }

@@ -14,7 +14,7 @@ const AboutV2 = () => {
                         </span>
                         <div className="right">
                             <AnimatedText>
-                                Founded on the principles of creativity, collaboration, and excellence, CODE BLACK is a team of experts dedicated to delivering results...
+                                Founded on the principles of creativity, collaboration, and excellence, code black is a team of experts dedicated to delivering results...
                             </AnimatedText>
                             <AnimatedText>
                                 We are committed to pushing the boundaries of what’s possible, working together to exceed under promise and over deliver value to our clients.

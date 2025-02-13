@@ -13,7 +13,7 @@ const AboutV1 = () => {
                             <img src={unionIcon} alt="About Us" /> About Us
                         </span>
                         <AnimatedText>
-                            Founded on the principles of creativity, collaboration, and excellence, CODE BLACK is a team of experts dedicated to delivering outstanding results...
+                            Founded on the principles of creativity, collaboration, and excellence, code black is a team of experts dedicated to delivering outstanding results...
                         </AnimatedText>
                     </div>
                     <div className="funfacts-wrap">

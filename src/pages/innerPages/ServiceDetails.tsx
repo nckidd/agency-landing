@@ -20,9 +20,7 @@ const ServiceDetailsPage = () => {
                     {data && <ServiceDetailsContent serviceData={data} />}
                     <FaqV1 />
                     <PriceV1 />
-                    <TestimonialV1 />
                     <ContactV1 />
-                    <PartnerV1 />
                 </LayoutV3>
             </div>
         </>

@@ -14,7 +14,7 @@ const HeroV2 = ({ title }: DataType) => {
                     <div className="hero-inner">
                         <img className="hero-shape" src={contact} alt="Shape" />
                         <div className="hero-top">
-                            <div className="hero-top-desc">
+                            <div className="hero-top-desc"> 
                                 <p>{`"A picture is often said to be worth a thousand words. Similarly, an interface is worth a thousand pictures."`}</p>
                             </div>
                             <div className="author-info">
