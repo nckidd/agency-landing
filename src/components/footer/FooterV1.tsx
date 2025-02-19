@@ -38,13 +38,13 @@ const FooterV1 = () => {
                                     </ul>
                                 </div>
                                 <div className="copyright">
-                                    &copy; {(new Date().getFullYear())} ALL RIGHTS RESERVED
+                                    BASED IN SAN FRANCISCO
                                 </div>
                             </div>
                         </div>
 
                         {/* Contact Section */}
-                        <div className="col-md-3">
+                        {/* <div className="col-md-3">
                             <div className="footer-widget footer-link">
                                 <div className="footer-contact-infos">
                                     <div className="footer-widget-top">
@@ -53,9 +53,9 @@ const FooterV1 = () => {
                                             <div className="split-text-anim">
                                                 <a data-aos="slide-up" data-aos-duration={700} href="tel:+13108092423" className="with-border">(+1) 310.809.2423</a>
                                             </div>
-                                            {/* <div className="split-text-anim">
+                                            <div className="split-text-anim">
                                                 <a data-aos="slide-up" data-aos-duration={700} href="mailto:MindBlowingArt2692@gmail.com" className="with-border">MindBlowingArt2692@gmail.com</a>
-                                            </div> */}
+                                            </div> 
                                         </div>
                                     </div>
                                     <Link to="/contact" className="theme-btn">
@@ -64,7 +64,7 @@ const FooterV1 = () => {
                                     </Link>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* Social Section */}
                         <div className="col-md-3">
@@ -95,7 +95,7 @@ const FooterV1 = () => {
                                     </ul>
                                 </div>
                                 <div className="copyright">
-                                    BASED IN SAN FRANCISCO
+                                    &copy; {(new Date().getFullYear())} ALL RIGHTS RESERVED
                                 </div>
                             </div>
                         </div>

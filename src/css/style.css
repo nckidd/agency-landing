@@ -338,16 +338,6 @@ a {
     height: 100px;
 }
 
-/* DON'T NEED WITH NEW LOGO
-.header-menu-wrap .logo {
-    display: block;
-    text-decoration: none;
-    color: var(--primary);
-    font-weight: 600;
-    font-size: 20px;
-}
-    */
-
 .header-menu-wrap .logo img {
     max-width: 160px;
     display: inline-block;
