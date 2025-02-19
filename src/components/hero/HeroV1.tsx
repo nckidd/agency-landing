@@ -10,7 +10,14 @@ const HeroV1 = () => {
 
                         {/* Video Section */}
                         <div className="hero-video">
-                            <video loop muted autoPlay>
+                            <video 
+                                loop 
+                                muted 
+                                autoPlay
+                                playsInline
+                                preload="auto"
+                                webkit-playsinline="true"
+                            >
                                 <source src="/assets/video/hero-video.mp4" type="video/mp4" />
                             </video>
                         </div>
