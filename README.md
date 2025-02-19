@@ -290,8 +290,8 @@ function App() {
 ## :compass: Roadmap
 
 * [x] Change nav menu pop out
-* [ ] Change service page
-* [ ] Proofread copy
+* [x] Change service page
+* [x] Proofread copy
 
 <!-- License -->
 ## :warning: License
