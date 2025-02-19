@@ -690,6 +690,10 @@
 }
 
 @media (max-width: 699px) {
+    .hero-sec .hero-top {
+        visibility: hidden;
+    }
+    
     .service-sec-2 .service-box .service-inner {
         gap: 20px;
     }
@@ -732,7 +736,11 @@
     #minify-text .section-title {
         line-height: 1;
     }
-    .hero-sec .hero-top {
-        visibility: hidden;
+    
+    .hero-sec .hero-inner #hero-video video {
+        width: 200%;
+        position: relative;
+        top: -40px;
+        left: 10px;
     }
 }

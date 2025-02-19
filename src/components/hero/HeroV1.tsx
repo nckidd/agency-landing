@@ -9,7 +9,7 @@ const HeroV1 = () => {
                     <div className="hero-inner">
 
                         {/* Video Section */}
-                        <div className="hero-video">
+                        <div className="hero-video" id="hero-video">
                             <video 
                                 loop 
                                 muted 
